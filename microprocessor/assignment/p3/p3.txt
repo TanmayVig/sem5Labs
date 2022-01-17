@@ -1,0 +1,84 @@
+LDA 2050H --- 3A
+MOV B,A --- 47
+LDA 2052H --- 3A
+ADD B ---- 80
+STA 2054H --- 32
+LDA 2051H --- 3A
+MOV B,A --- 47
+LDA 2053H --- 3A
+ADC B ---- 88
+STA 2055H --- 32
+HLT --- 76
+
+Machine:
+3A
+50
+20
+
+47
+
+3A
+52
+20
+
+80
+
+32
+54
+20
+
+3A
+51
+20
+
+47
+
+3A
+53
+20
+
+88
+
+32
+55
+20
+
+76
+Procedure: 
+
+Click reset
+Click set
+Put 3000
+Press enter 
+Put 3A
+Press enter
+Put 50 
+Press enter
+Put 20
+...
+Press enter
+Put 76
+Press reset
+Press set
+Put 2050
+Press enter
+Put any number
+Put 2051
+Press enter
+Put any number
+Put 2052
+Press enter
+Put any number
+Press reset
+Press set
+Put 2053
+Press enter 
+Put any other number
+Press Reset
+Press go
+Put 3000
+Press execute
+Press reset
+Press mem
+Put 2054
+See result

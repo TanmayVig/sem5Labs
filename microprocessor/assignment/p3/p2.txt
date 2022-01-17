@@ -1,0 +1,36 @@
+LXI D 2050H
+LDAX D
+MOv B,A
+LXI D 2051H
+LDAX D
+ADD B
+INX D
+STAX D
+HLT
+
+3000-
+11
+50
+20
+
+1A
+
+47
+
+11
+51
+20
+
+1A
+
+80
+
+13
+
+12
+
+76
+
+2050-
+02
+05
